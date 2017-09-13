@@ -1,0 +1,24 @@
+// Tank BP
+//
+// UE4 name of this class: Tank_BP_C
+
+// UE4 Asset Name: Tank_BP
+// UE4 Package Name: "/Game/Tank/Tank_BP"
+
+annotations: &reflected_data &name("Tank_BP_C")
+
+$$ @
+
+/* &raw("UberGraphFrame")          PointerToUberGraphFrame !@uber_graph_frame        // Currently unsupported */
+&raw("SpringArm")               SpringArmComponent  !@spring_arm              // Spring Arm
+&raw("Azimuth Gimbal")          SceneComponent      !@azimuth_gimbal          // Azimuth Gimbal
+&raw("Camera")                  CameraComponent     !@camera                  // Camera
+&raw("Tank")                    StaticMeshComponent !@tank                    // Tank
+&raw("RightTrack")              StaticMeshComponent !@right_track             // Right Track
+&raw("LeftTrack")               StaticMeshComponent !@left_track              // Left Track
+&raw("Barrel")                  StaticMeshComponent !@barrel                  // Barrel
+&raw("Turret")                  StaticMeshComponent !@turret                  // Turret
+&raw("azimuth_rotation_speed")  Real                !@azimuth_rotation_speed  // Azimuth Rotation Speed
+&raw("altitude_rotation_speed") Real                !@altitude_rotation_speed // Altitude Rotation Speed
+
+$$ .

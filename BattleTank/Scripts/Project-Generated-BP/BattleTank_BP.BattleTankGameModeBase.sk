@@ -1,0 +1,14 @@
+// Battle Tank BP
+//
+// UE4 name of this class: BattleTank_BP_C
+
+// UE4 Asset Name: BattleTank_BP
+// UE4 Package Name: "/Game/Blueprints/BattleTank_BP"
+
+annotations: &reflected_data &name("BattleTank_BP_C")
+
+$$ @
+
+&raw("DefaultSceneRoot") SceneComponent !@default_scene_root // Default Scene Root
+
+$$ .

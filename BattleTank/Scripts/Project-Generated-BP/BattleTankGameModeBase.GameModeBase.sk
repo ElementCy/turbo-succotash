@@ -1,0 +1,7 @@
+// Battle Tank Game Mode Base
+//
+// UE4 name of this class: BattleTankGameModeBase
+
+annotations: &reflected_cpp &name("BattleTankGameModeBase")
+
+$$ .

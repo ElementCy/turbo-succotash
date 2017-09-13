@@ -1,0 +1,24 @@
+//---------------------------------------------------------------------------------------
+// Method description...
+// 
+// Params:
+//   arg1: 
+//
+// Return Params:
+//   rarg1: 
+//
+// Returns: 
+//
+// Notes:     
+// Examples:  
+// See:       
+//---------------------------------------------------------------------------------------
+
+&blueprint
+(Real axis_value) 
+[
+if axis_value ~= 0
+  [
+    @spring_arm.add_local_rotation(MathLib.make_rotator(,GameLib.world_delta_seconds * axis_value * @altitude_rotation_speed, ))
+  ]
+]
